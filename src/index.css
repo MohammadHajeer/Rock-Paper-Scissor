@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --scissors-gradient-from: #ec9e0e;
+  --scissors-gradient-to: #eca922;
+  --paper-gradient-from: #4865f4;
+  --paper-gradient-to: #5671f5;
+  --rock-gradient-from: #dc2e4e;
+  --rock-gradient-to: #dd405d;
+  --lizard-gradient-from: #834fe3;
+  --lizard-gradient-to: #8c5de5;
+  --spock-gradient-from: #40b9ce;
+  --spock-gradient-to: #52bed1;
+  --dark-text: #3b4363;
+  --score-text: #2a46c0;
+  --header-outline: #606e85;
+  --radial-background: radial-gradient(circle at top, #1f3756, #141539);
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
