@@ -6,7 +6,7 @@ import { buttonDetails } from "./buttonDetails";
 function GameDiagram({ setSelectedButton, setScore }) {
   return (
     <div className="relative animate-hide-diagram">
-      <img src={diagram} alt="diagram" className=" max-sm:w-[250px]" />
+      <img src={diagram} alt="diagram" className=" max-md:w-[250px]" />
       <button
         onClick={() => {
           setScore(0);

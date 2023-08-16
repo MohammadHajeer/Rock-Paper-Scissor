@@ -8,7 +8,7 @@ function RulesButton() {
   if (showRules) {
     return createPortal(
       <div
-        className="absolute z-50 top-0 left-0 bg-white w-full h-full
+        className="absolute z-50 top-0 left-0 bg-white w-full min-h-screen
        flex justify-center items-center flex-col gap-20"
       >
         <p className="text-4xl text-[--header-outline]">RULES</p>
